@@ -26,21 +26,35 @@ header button {
 
 .form-control {
 
-    display: block;
-    width: 100%;
-    height: 34px;
-    padding: 6px 12px;
-    font-size: 14px;
-    line-height: 1.42857143;
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    border-bottom: 1px dotted black;
-    border-radius: 0;
-    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .0);
+  display: block;
+  width: 100%;
+  height: 34px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px dotted black;
+  border-radius: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .0);
 
-    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
-    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
-    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
-     border-bottom: dotted 2px;
+  -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+  -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+  border-bottom: dotted 2px;
+}
+
+
+.backToCV {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  margin: 20px;
+}
+.backToCV img {
+  width: 20%;
+  border: 1px solid #78C2AD;
+  border-radius: 50%;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
 }
